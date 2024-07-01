@@ -1,0 +1,282 @@
+{
+    "education": [
+        {
+            "title": "Pós-graduação Lato Sensu - Especialização em Tecnologia Java",
+            "period": "2022 - 2023",
+            "institution": "UTFPR - Universidade Tecnológica Federal do Paraná"
+        },
+        {
+            "title": "Bacharel em Ciência da Computação",
+            "period": "2015 - 2018",
+            "institution": "CESUPA - Centro Universitário do Estado do Pará"
+        }
+    ],
+    "experiencies": [
+        {
+            "title": "Senior Software Engenier",
+            "period": "Julho/2022 - Atualmente",
+            "company": "PicPay",
+            "description": "",
+            "tecnologies": [
+                "Scrum",
+                "Kotlin",
+                "Java",
+                "PostgreSQL",
+                "SQL",
+                "Spring Framework",
+                "Apache Kafka",
+                "Git",
+                "GitHub",
+                "Hibernate",
+                "Kubernetes",
+                "Maven",
+                "Spring Boot"
+            ]
+        },
+        {
+            "title": "Backend Developer",
+            "period": "Maio/2021 - Julho/2022",
+            "company": "Compass.Uol",
+            "description": "Alocado no PagSeguro-UOL, minhas principais atribuições foram:\n <li>Propor, arquitetar e implementar soluções para as necessidades de negócio.</li><li>Desenvolvimento de melhorias em diferentes aplicações.</li><li>Desenvolvimento e implantação de fluxos de CI & CD.</li><li>Atuar na migração de sistemas monolíticos para micro-serviços.</li>\nAtuando com:<li>Java 8 & 11</li><li>Kotlin</li><li>Ecossistema Spring (Boot, Data, Cloud, Batch, Security...)</li><li>Jenkins + Groovy.</li><li>Splunk</li><li>Kubernetes</li>",
+            "tecnologies": [
+                "Scrum",
+                "SQL",
+                "Kanban",
+                "Gradle",
+                "Desenvolvimento de software",
+                "Spring Framework",
+                "Apache Kafka",
+                "Git",
+                "Computação em nuvem",
+                "GitHub",
+                "Hibernate",
+                "API REST",
+                "Kubernetes",
+                "Java",
+                "Maven",
+                "OOP (Conceitos de orientação a objetos)",
+                "Spring Boot",
+                "Metodologias ágeis"
+            ]
+        },
+        {
+            "title": "Senior Java Developer",
+            "period": "Junho/2020 - Maio/2021",
+            "company": "Philips",
+            "description": "Trabalhei dando sustentação para o ERP Tasy Minhas principais atribuições foram:<li>Propor soluções para problemas complexos.</li><li>Contribuir para o desenvolvimento, correções e melhorias em software;</li><li>Participar do processo de revisão de código;</li><li>Contribuir para a preparação e execução de testes;</li><li>Elaborar e manter documentação técnica;</li>\nTecnologias utilizadas:<li>Java 8</li><li>Oracle Database</li><li>AngularJs</li>",
+            "tecnologies": [
+                "AngularJS",
+                "PL/SQL",
+                "Java",
+                "Javascript",
+                "Git",
+                "GitHub",
+                "Maven"
+            ]
+        },
+        {
+            "title": "Desenvolvedor de software",
+            "period": "Fevereiro/2019 - Junho/2020",
+            "company": "TSJ Telemarketing Ltda",
+            "description": "<li>Criar fluxo de deploy desde o ambiente de stage, homologação e produção.</li><li>Implantar Jenkins como ferramenta de CI/CD.</li><li>Implantar Git e GitLab como ferramenta de versionamento de código.</li><li>Implementar fluxo de desenvolvimento utilizando GitFlow.</li><li>Migrar as plataformas de CRM para Laravel+VueJs</li><li>Criação de chatbot utilizando árvore de decisão.</li>",
+            "tecnologies": [
+                "PHP",
+                "Lavaravel",
+                "JQuery",
+                "VueJS",
+                "MySQL",
+                "PosgreSQL",
+                "Jenkins",
+                "Compose",
+                "Bootstrap",
+                "Materialize"
+            ]
+        },
+        {
+            "title": "Desenvolvedor web",
+            "period": "Janeiro/2017 - Fevereiro/2019",
+            "company": "Cidade Aprendizagem",
+            "description": "<li>Desenvolvimento de sistemas para a educação EAD.</li><li>Criação e desenvolvimento de fluxo de deploy em ambiente produtivo.</li><li>Criação de ferramentas para envio e monitoramento de emails promocionais.</li><li>Implantação da ferramenta Git e GitLab no fluxo desenvolvimento.</li>",
+            "tecnologies": [
+                "Slim Framework",
+                "PHP",
+                "CodeIgniter",
+                "SQL",
+                "JavaScript",
+                "Desenvolvimento de software",
+                "Arquitetura MVC",
+                "Aplicativos web",
+                "Redmine",
+                "JQuery",
+                "Git",
+                "Zend Framework",
+                "MySQL",
+                "JavaFX",
+                "Linux",
+                "Bootstrap"
+            ]
+        },
+        {
+            "title": "Estagiário",
+            "period": "Mar de 2016 - Dez de 2016",
+            "company": "SIPAM - Sistema de Proteção da Amazônia",
+            "description": "Desenvolvimento de sistemas de monitoramento ambiental.",
+            "tecnologies": [
+                "PHP",
+                "PostgreSQL",
+                "SQL",
+                "Javascript",
+                "JQuery",
+                "Bootstrap",
+                "Linux",
+                "Shell Script"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Java",
+            "level": 10
+        },
+        {
+            "name": "Kotlin",
+            "level": 9
+        },
+        {
+            "name": "GoLang",
+            "level": 4
+        },
+        {
+            "name": "PHP",
+            "level": 8
+        },
+        {
+            "name": "JavaScript",
+            "level": 8
+        },
+        {
+            "name": "C++",
+            "level": 3
+        },
+        {
+            "name": "Spring",
+            "level": 8
+        },
+        {
+            "name": "Quarkus",
+            "level": 4
+        },
+        {
+            "name": "Prime Face",
+            "level": 3
+        },
+        {
+            "name": "Jakarta EE",
+            "level": 4
+        },
+        {
+            "name": "Maven",
+            "level": 7
+        },
+        {
+            "name": "Gradle",
+            "level": 8
+        },
+        {
+            "name": "Hibernate",
+            "level": 9
+        },
+        {
+            "name": "Postman",
+            "level": 5
+        },
+        {
+            "name": "Kafka",
+            "level": 8
+        },
+        {
+            "name": "RabbitMQ",
+            "level": 4
+        },
+        {
+            "name": "Kubernetes",
+            "level": 6
+        },
+        {
+            "name": "Redis",
+            "level": 4
+        },
+        {
+            "name": "Docker",
+            "level": 8
+        },
+        {
+            "name": "Linux",
+            "level": 8
+        },
+        {
+            "name": "Git",
+            "level": 9
+        },
+        {
+            "name": "Jenkins",
+            "level": 7
+        },
+        {
+            "name": "ArgoCD",
+            "level": 4
+        },
+        {
+            "name": "PostgreSQL",
+            "level": 7
+        },
+        {
+            "name": "OracleDB",
+            "level": 7
+        },
+        {
+            "name": "MySql",
+            "level": 8
+        },
+        {
+            "name": "MongoDB",
+            "level": 6
+        },
+        {
+            "name": "Android",
+            "level": 7
+        },
+        {
+            "name": "VueJS",
+            "level": 9
+        },
+        {
+            "name": "Laravel",
+            "level": 7
+        },
+        {
+            "name": "CodeIgniter",
+            "level": 8
+        },
+        {
+            "name": "Prometheus",
+            "level": 8
+        },
+        {
+            "name": "Grafana",
+            "level": 8
+        },
+        {
+            "name": "New Relic",
+            "level": 5
+        },
+        {
+            "name": "Dynatrace",
+            "level": 3
+        },
+        {
+            "name": "OpsGenie",
+            "level": 3
+        }
+    ]
+}
