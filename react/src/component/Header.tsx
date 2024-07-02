@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { ActiveHeader } from "./Contexts";
 
 function Header() {
@@ -16,9 +16,17 @@ function Header() {
         changeMobileVisibility()
     }
 
+    const [stikedClass, setStickedClass] = useState("");
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            setStickedClass(window.scrollY > 20 ? "sticked":"");
+        });
+    }, []);
+
     return (
         <div>
-            <header id="site_header" className={"header "+toggleMenu}>
+            <header id="site_header" className={["header", toggleMenu, stikedClass].join(" ")}>
                 <div className="header-content">
                     <div className="site-title-block mobile-hidden">
                         <div className="site-title">
