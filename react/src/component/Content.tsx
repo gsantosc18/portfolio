@@ -1,11 +1,18 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import Home from "./Home";
 import Resume from "./Resume";
 import { ActiveHeader } from "./Contexts";
 
+const allowHeader = ["#home", "#resume"]
+
 export default function Content() {
-    
-    const { activeHeader } = useContext(ActiveHeader);
+    const { activeHeader, setActiveHeader } = useContext(ActiveHeader);
+
+    useEffect(() => {
+        if (!allowHeader.includes(activeHeader)) {
+            setActiveHeader(allowHeader[0])
+        }
+    })
 
     return (
         <div id="main" className="site-main">

@@ -61,7 +61,7 @@ export default function Resume({active}:{active: boolean}) {
   const skills = resumeInfo.skills.map(SkillComponent)
 
   return (
-      <section className={`pt-page ${active ? 'pt-page-current':''}`} data-id="resume">
+      <section className={`pt-page animate__animated ${active ? 'pt-page-current animate__slideInRight':''}`} data-id="resume">
         <div className="section-inner custom-page-content">
           <div className="page-header color-1">
             <h2>Currículo</h2>
