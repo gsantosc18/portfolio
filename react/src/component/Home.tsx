@@ -5,7 +5,7 @@ function Home({active}:{active: boolean}) {
     const informations: Profile = require("./data/profile.json");
 
     return (
-        <section className={`pt-page ${active ? 'pt-page-current':''}`} data-id="home">
+        <section className={`pt-page animate__animated ${active ? 'pt-page-current animate__slideInLeft':''}`} data-id="home">
             <div className="section-inner start-page-content">
                 <div className="page-header">
                     <div className="row">
