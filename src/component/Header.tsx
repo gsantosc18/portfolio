@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { ActiveHeader } from "./Contexts";
 
 function Header() {
@@ -41,6 +41,9 @@ function Header() {
                             </li>
                             <li className={activeHeader == "#resume" ? "active":""} onClick={() => setHeader("#resume")}>
                                 <a href="#resume" className="pt-trigger">Currículo</a>
+                            </li>
+                            <li className={activeHeader == "#profile" ? "active":""} onClick={() => setHeader("#profile")}>
+                                <a href="#profile" className="pt-trigger">Portifólio</a>
                             </li>
                         </ul>
                     </div>

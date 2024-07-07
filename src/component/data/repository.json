@@ -1,0 +1,44 @@
+[
+    {
+        "name": "PomodoroTimer",
+        "language": "Java",
+        "description": "Timer para contagem dos ciclos pomodoro para otimização de tempo e performance.",
+        "html_url": "https://github.com/gsantosc18/PomodoroTimer"
+    },
+    {
+        "name": "Metric API",
+        "language": "Kotlin",
+        "description": "Projeto que tem como objetivo realizar o estudo de instrumentação de um projeto spring com o opentelemetry",
+        "html_url": "https://github.com/gsantosc18/metric-api"
+    },
+    {
+        "name": "Todo List",
+        "language": "GO",
+        "description": "Este projeto é uma aplicação simples de lista de tarefas (ToDo List), implementada usando Go (Golang) com o framework Gin-Gonic. Inclui utilização de Postgre como banco de dados e gerenciado de identidade Keycloak.",
+        "html_url": "https://github.com/gsantosc18/todo"
+    },
+    {
+        "name": "gerenciador-financas",
+        "language": "Android/Java",
+        "description": "Tem o objetivo de criar um histórico para gerenciar gastos do mês",
+        "html_url": "https://github.com/gsantosc18/gerenciador-financas"
+    },
+    {
+        "name": "Store",
+        "language": "Kotlin",
+        "description": "Projeto de gerenciamento de loja",
+        "html_url": "https://github.com/gsantosc18/store"
+    },
+    {
+        "name": "Calcula-Ponto-Funcao",
+        "language": "Typescript",
+        "description": "Projeto desenvolvido para realizar o cálculo de pontos de função",
+        "html_url": "https://github.com/gsantosc18/Calcula-Ponto-Funcao"
+    },
+    {
+        "name": "control-project-app",
+        "language": "Typescript",
+        "description": "Projeto desenvolvido para ajudar pequenas equipes a ter visibilidade das atividades em andamento e o progresso dos projetos.",
+        "html_url": "https://github.com/gsantosc18/control-project-app"
+    }
+]
