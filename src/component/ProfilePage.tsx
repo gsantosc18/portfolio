@@ -1,4 +1,3 @@
-import { useState } from "react"
 import { UserRepository } from "./schems/schems"
 
 function RepositoryFragment(repo: UserRepository) {
