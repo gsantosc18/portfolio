@@ -36,13 +36,13 @@ function Header() {
 
                     <div className="site-nav">
                         <ul id="nav" className="site-main-menu">
-                            <li className={activeHeader == "#home" ? "active":""}>
+                            <li className={activeHeader === "#home" ? "active":""}>
                                 <a href="#home" className="pt-trigger" onClick={() => setHeader("#home")}>Inicio</a>
                             </li>
-                            <li className={activeHeader == "#resume" ? "active":""} onClick={() => setHeader("#resume")}>
+                            <li className={activeHeader === "#resume" ? "active":""} onClick={() => setHeader("#resume")}>
                                 <a href="#resume" className="pt-trigger">Currículo</a>
                             </li>
-                            <li className={activeHeader == "#profile" ? "active":""} onClick={() => setHeader("#profile")}>
+                            <li className={activeHeader === "#profile" ? "active":""} onClick={() => setHeader("#profile")}>
                                 <a href="#profile" className="pt-trigger">Portifólio</a>
                             </li>
                         </ul>
