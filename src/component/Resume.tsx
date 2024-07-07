@@ -1,4 +1,3 @@
-import React from "react";
 import { Education, Experiency, ResumeInfo, Skill } from "./schems/schems";
 import parse from "html-react-parser";
 

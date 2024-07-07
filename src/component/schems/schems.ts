@@ -12,6 +12,7 @@ export type Profile = {
     linkedin: string
     facebook: string
     instagram: string
+    github: string
 }
 
 export type Education = {
@@ -39,3 +40,9 @@ export type ResumeInfo = {
     skills: Skill[]
 }
 
+export type UserRepository = {
+    description: string
+    name: string
+    html_url: string
+    language: string
+}

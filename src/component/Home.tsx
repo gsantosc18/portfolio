@@ -1,4 +1,3 @@
-import React from "react";
 import { Profile } from "./schems/schems";
 
 function Home({active}:{active: boolean}) {
@@ -28,6 +27,7 @@ function Home({active}:{active: boolean}) {
                         </div>
 
                         <div className="social-links">
+                            <a href={informations.github} target="_blank"><i className="fa fa-github"></i></a>
                             <a href={informations.youtube} target="_blank"><i className="fa fa-youtube"></i></a>
                             <a href={informations.linkedin} target="_blank"><i className="fa fa-linkedin"></i></a>
                             <a href={informations.facebook} target="_blank"><i className="fa fa-facebook"></i></a>

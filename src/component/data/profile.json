@@ -3,7 +3,7 @@
     "lastName": "Caldas",
     "profession": "Backend Developer",
     "age": "29",
-    "email": "gsantos.c18+portifolio@gmail.com",
+    "email": "gsantos.c18@gmail.com",
     "availability": "Freelance, PJ, CLT",
     "city": "Belém/PA",
     "country": "Brasil",
@@ -11,5 +11,7 @@
     "youtube": "https://www.youtube.com/channel/UCk3-h1QsMe5kKlF5MG9MRiw",
     "linkedin": "https://www.linkedin.com/in/gedalias-caldas/",
     "facebook": "https://www.facebook.com/gedalias6",
-    "instagram": "https://www.instagram.com/gedalias6/"
+    "instagram": "https://www.instagram.com/gedalias6/",
+    "github": "https://github.com/gsantosc18",
+    "github_name": "gsantosc18"
 }
