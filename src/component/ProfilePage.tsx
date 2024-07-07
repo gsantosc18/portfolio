@@ -17,7 +17,7 @@ function RepositoryFragment(repo: UserRepository) {
                     </div>
                     <div className="widget-49-meeting-action">
                         <span className="badge">{repo.language}</span>
-                        <a href={repo.html_url} target="_blank" className="btn btn-sm btn-flash-border-primary">Github</a>
+                        <a href={repo.html_url} target="_blank" rel="noreferrer" className="btn btn-sm btn-flash-border-primary">Github</a>
                     </div>
                 </div>
             </div>

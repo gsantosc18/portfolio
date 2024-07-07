@@ -19,9 +19,9 @@ export default function Content() {
         <div id="main" className="site-main">
             <div className="pt-wrapper">
                 <div className="subpages" style={{overflow: "visible"}}>
-                    <Home active={activeHeader == "#home"}/>
-                    <Resume active={activeHeader == "#resume"}/>
-                    <ProfilePage active={activeHeader == "#profile"}/>
+                    <Home active={activeHeader === "#home"}/>
+                    <Resume active={activeHeader === "#resume"}/>
+                    <ProfilePage active={activeHeader === "#profile"}/>
                 </div>
             </div>
         </div>
