@@ -6,7 +6,7 @@ function Header() {
 
     const changeMobileVisibility = () => {
         const mobileVisibilityClass = "mobile-menu-hide"
-        setToggleMenu(toggleMenu == mobileVisibilityClass?"":mobileVisibilityClass)
+        setToggleMenu(toggleMenu === mobileVisibilityClass?"":mobileVisibilityClass)
     }
 
     const { activeHeader, setActiveHeader } = useContext(ActiveHeader);
