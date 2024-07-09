@@ -74,6 +74,7 @@ img {
   height: auto;
   border: 0;
   -ms-interpolation-mode: bicubic;
+  border-radius: 50%;
 }
 .page {
   position: relative;
@@ -403,7 +404,7 @@ body > footer .copyrights {
   position: relative;
   background-color: #fff;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 5px;
   -webkit-box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.1);
@@ -691,6 +692,7 @@ body > footer .copyrights {
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  border-radius: 50%;
 }
 .start-page-content .page-header .photo:hover {
   -webkit-transform: translateY(-9px);
