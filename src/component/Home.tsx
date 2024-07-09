@@ -1,4 +1,5 @@
 import { Profile } from "./schems/schems";
+import parse from "html-react-parser";
 
 function Home({active}:{active: boolean}) {
     const informations: Profile = require("./data/profile.json");
@@ -45,7 +46,7 @@ function Home({active}:{active: boolean}) {
                             <h3>Sobre <span>mim</span></h3>
                             </div>
                             <p style={{textAlign: "justify"}}>
-                            { informations.about }
+                            { parse(informations.about) }
                             </p>
                         </div>
                         </div>
