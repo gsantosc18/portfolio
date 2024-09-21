@@ -38,9 +38,7 @@ function ExperienceComponent(experiency: Experiency) {
   )
 }
 
-function SkillComponent(skill: Skill, filter: string) {
-  console.log(skill, filter);
-    
+function SkillComponent(skill: Skill, filter: string) {    
   if (filter != "all" && skill.group != filter) {
     return
   }
@@ -48,10 +46,12 @@ function SkillComponent(skill: Skill, filter: string) {
     <div className="col-md-6 col-sm-6">
       <div className="panel panel-default">
         <div className="panel-body">
-          <h4>{skill.name}</h4>
+          <h4>{
+            skill.level == 10 &&
+            <span className="fa fa-star" aria-hidden="true" style={{color: "#014566"}}></span>
+          } {skill.name}</h4>
           <div className="skill-container">
-            <div className={`skill-percentage skill-${skill.level}`}></div>
-            <span className="badge">{skill.level}</span>
+            <div className={`skill-percentage skill-${skill.level}`} data-toggle="tooltip" data-placement="right" title={skill.level+""}></div>
           </div>
         </div>
       </div>

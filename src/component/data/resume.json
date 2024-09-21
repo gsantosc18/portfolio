@@ -141,12 +141,12 @@
         },
         {
             "name": "Kotlin",
-            "level": 9,
+            "level": 10,
             "group": "lang"
         },
         {
             "name": "GoLang",
-            "level": 5,
+            "level": 6,
             "group": "lang"
         },
         {
@@ -156,7 +156,7 @@
         },
         {
             "name": "JavaScript",
-            "level": 8,
+            "level": 9,
             "group": "lang"
         },
         {
