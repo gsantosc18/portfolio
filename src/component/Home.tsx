@@ -11,7 +11,7 @@ function Home({active}:{active: boolean}) {
                     <div className="row">
                         <div className="col-sm-4 col-md-4 col-lg-4">
                         <div className="photo">
-                            <img src="assets/image/photo.jpg" alt="" />
+                            <img src={informations.photo} alt="" />
                         </div>
                         </div>
 

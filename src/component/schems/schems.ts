@@ -1,6 +1,7 @@
 export type Profile = {
     firstName: string
     lastName: string
+    photo: string
     profession: string
     age: number
     email: string
@@ -32,6 +33,7 @@ export type Experiency = {
 export type Skill = {
     name: string
     level: number
+    group: string
 }
 
 export type ResumeInfo = {

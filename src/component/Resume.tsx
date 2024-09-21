@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { Education, Experiency, ResumeInfo, Skill } from "./schems/schems";
 import parse from "html-react-parser";
 
@@ -37,7 +38,12 @@ function ExperienceComponent(experiency: Experiency) {
   )
 }
 
-function SkillComponent(skill: Skill) {
+function SkillComponent(skill: Skill, filter: string) {
+  console.log(skill, filter);
+    
+  if (filter != "all" && skill.group != filter) {
+    return
+  }
   return (
     <div className="col-md-6 col-sm-6">
       <div className="panel panel-default">
@@ -45,6 +51,7 @@ function SkillComponent(skill: Skill) {
           <h4>{skill.name}</h4>
           <div className="skill-container">
             <div className={`skill-percentage skill-${skill.level}`}></div>
+            <span className="badge">{skill.level}</span>
           </div>
         </div>
       </div>
@@ -54,10 +61,13 @@ function SkillComponent(skill: Skill) {
 
 export default function Resume({active}:{active: boolean}) {
 
+  const [filter, setFilter] = useState("all")
+
   const resumeInfo: ResumeInfo = require("./data/resume.json");
   const education = resumeInfo.education.map(EducationComponent)
   const experiencies = resumeInfo.experiencies.map(ExperienceComponent)
-  const skills = resumeInfo.skills.map(SkillComponent)
+
+  let skills = resumeInfo.skills.map(e => SkillComponent(e, filter))
 
   return (
       <section className={`pt-page animate__animated ${active ? 'pt-page-current animate__slideInRight':''}`} data-id="resume">
@@ -96,7 +106,25 @@ export default function Resume({active}:{active: boolean}) {
               <div className="col-sm-12 col-md-12 col-lg-12">
                 <div className="block">
                   <div className="block-title">
-                    <h3>Skills</h3>
+                    <h3 className="col-md-12">
+                      <div className="row">
+                        <span className="col-md-9">
+                          Skills
+                        </span>
+                        <div className="col-md-3">
+                          <select className="form-control" onChange={e => setFilter(e.target.value)}>
+                            <option value="all">Tudo</option>
+                            <option value="lang">Linguagens</option>
+                            <option value="framework">Frameworks</option>
+                            <option value="devops_automation">DevOps, Build e Automação</option>
+                            <option value="database_storage">Bancos de Dados e Armazenamento</option>
+                            <option value="observability_message">Mensageria, Monitoramento e Observabilidade</option>
+                            <option value="test_tool">Ferramentas de Testes</option>
+                            <option value="application_server">Servidores de aplicação</option>
+                          </select>
+                        </div>
+                      </div>
+                    </h3>
                   </div>
 
                   <div className="skills-info">
