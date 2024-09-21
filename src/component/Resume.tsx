@@ -108,10 +108,10 @@ export default function Resume({active}:{active: boolean}) {
                   <div className="block-title">
                     <h3 className="col-md-12">
                       <div className="row">
-                        <span className="col-md-9">
+                        <span className="col-md-8">
                           Skills
                         </span>
-                        <div className="col-md-3">
+                        <div className="col-md-4">
                           <select className="form-control" onChange={e => setFilter(e.target.value)}>
                             <option value="all">Tudo</option>
                             <option value="lang">Linguagens</option>
@@ -121,6 +121,7 @@ export default function Resume({active}:{active: boolean}) {
                             <option value="observability_message">Mensageria, Monitoramento e Observabilidade</option>
                             <option value="test_tool">Ferramentas de Testes</option>
                             <option value="application_server">Servidores de aplicação</option>
+                            <option value="os">Sistemas operacionais</option>
                           </select>
                         </div>
                       </div>

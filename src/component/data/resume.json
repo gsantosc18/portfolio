@@ -241,8 +241,18 @@
         },
         {
             "name": "Linux",
+            "level": 9,
+            "group": "os"
+        },
+        {
+            "name": "Windows",
+            "level": 9,
+            "group": "os"
+        },
+        {
+            "name": "MacOS",
             "level": 8,
-            "group": "framework"
+            "group": "os"
         },
         {
             "name": "Git",
