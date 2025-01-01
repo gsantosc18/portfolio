@@ -30,7 +30,9 @@
                 "Hibernate",
                 "Kubernetes",
                 "Maven",
-                "Spring Boot"
+                "Spring Boot",
+                "MongoDB",
+                "Grafana"
             ]
         },
         {
