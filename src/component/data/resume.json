@@ -16,7 +16,7 @@
             "title": "Software Engenier",
             "period": "Maio/2025 - Atualmente",
             "company": "Nubank",
-            "description": "",
+            "description": "Fui integrante do time de Resilience, onde nosso foco era estruturar ferramentas internas para blindar a infraestrutura global do Nubank contra falhas em cenários sob estresse de tráfego.<br/>O grande desafio do time era que a execução de experimentos de Chaos Engineering dependia de processos manuais de configuração e conhecimento restrito, o que criava barreiras para que outras equipes testassem a tolerância de seus próprios microsserviços.<br/>O que fiz e decidi: Atuei no design de uma plataforma corporativa self-service, rodando sobre Kubernetes e integrada ao AWS Fault Injection Simulator (FIS). Desenvolvi automações de injeção de falhas seguras e isoladas por meio de AWS EventBridge, Lambda, DynamoDB e Argo Workflows. Para dar visibilidade aos resultados, implementei telemetria nos experimentos via OpenTelemetry, permitindo correlacionar testes de estresse em K6 com painéis de controle e alarmes de degradação no Grafana.<br/>Impacto: Democratizamos as práticas de engenharia de caos na organização, permitindo que diversos times de engenharia passassem a validar preventivamente a resiliência de seus microsserviços na nuvem de forma autônoma e segura.",
             "tecnologies": [
                 "Clojure",
                 "Go",
