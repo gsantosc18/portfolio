@@ -54,9 +54,6 @@ function Home({active}:{active: boolean}) {
                         <div className="col-sm-6 col-md-6 col-lg-6">
                         <ul className="info-list">
                             <li>
-                                <span className="title">Idade</span><span className="value"><span>{ informations.age }</span></span>
-                            </li>
-                            <li>
                                 <span className="title">País</span><span className="value">{ informations.country }</span>
                             </li>
                             <li>
