@@ -63,9 +63,6 @@ function Home({active}:{active: boolean}) {
                                 <span className="title">Cidade/Estado</span><span className="value">{ informations.city }</span>
                             </li>
                             <li>
-                                <span className="title">E-mail</span><span className="value"><a href={`mailto:${informations.email}`}>{ informations.email }</a></span>
-                            </li>
-                            <li>
                                 <span className="title">Dispnibilidade</span><span className="value available">{ informations.availability }</span>
                             </li>
                         </ul>
